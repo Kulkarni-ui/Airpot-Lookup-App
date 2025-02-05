@@ -1,15 +1,7 @@
 /* Make everything centered and fit mobile screens */
 body {
     font-family: 'Arial', sans-serif;
-    background: linear-gradient(to bottom, #4f9dce, #6133ed);
-    body {
-        background: linear-gradient(to bottom, rgba(240, 168, 168, 0.5), rgba(225, 124, 124, 0.5)), 
-                    url('/content/AIR INDIA.jpg');
-        background-size: cover;
-        background-position: center;
-        background-attachment: fixed;
-        color: white; 
-    }    
+    background: linear-gradient(to bottom, #FF7E5F, #FEB47B);
     color: #333;
     display: flex;
     flex-direction: column;
