@@ -1,0 +1,78 @@
+/* Make everything centered and fit mobile screens */
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #e09, #d0e);
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+/* App container */
+.container {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    width: 90%;  /* Adjust for mobile */
+    max-width: 400px;
+}
+
+/* Input Field */
+input {
+    width: 90%;  /* Make it fit mobile screens */
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Button */
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 12px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 100%; /* Full-width button for mobile */
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Make results responsive */
+#result {
+    margin-top: 20px;
+    padding: 15px;
+    background: #e3f2fd;
+    border-radius: 5px;
+    font-size: 18px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Footer */
+footer {
+    margin-top: auto;
+    padding: 10px;
+    text-align: center;
+    font-size: 14px;
+    color: #fff;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 600px) {
+    .container {
+        width: 95%; /* Make it take full screen width */
+    }
+    h1 {
+        font-size: 20px;
+    }
+}
