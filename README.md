@@ -6,11 +6,11 @@ AeroLookup is a simple and responsive web application that allows users to enter
 
 ## 🌐 Features
 
-- 🔍 Search airport details using IATA or ICAO codes
-- 📍 Displays name, country, and coordinates
-- 💡 Instant, client-side lookup using a local `dataset.json`
-- 💻 Fully responsive design, mobile-friendly
-- ⚡ Fast and lightweight – no external APIs
+-  Search airport details using IATA or ICAO codes
+-  Displays name, country, and coordinates
+-  Instant, client-side lookup using a local `dataset.json`
+-  Fully responsive design, mobile-friendly
+-  Fast and lightweight – no external APIs
 
 ---
 
