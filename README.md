@@ -25,6 +25,7 @@ AeroLookup is a simple and responsive web application that allows users to enter
 
 ## 📁 Project Structure
 
+```
 📦 Airport Lookup App/
 │
 ├── index.html # Main HTML file
@@ -33,7 +34,7 @@ AeroLookup is a simple and responsive web application that allows users to enter
 ├── dataset.json # Static dataset of airport codes
 └── README.md # Project overview
 
----
+```
 
 ## 🚀 How to Use
 
